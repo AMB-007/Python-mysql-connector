@@ -11,3 +11,17 @@ select country,max(age) from employee group by country;
 select country,min(age) from employee group by country;
 select proffession,count(*),avg(age) from employee group by proffession;
 
+select country from employee;
+select distinct country from employee;
+
+select first_name,last_name from employee where country = "india"
+union
+select first_name,last_name from employee where country = "uk";
+
+select country,count(*) from employee group by country having count(*) > 100;
+
+
+
+
+
+
