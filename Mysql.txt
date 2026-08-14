@@ -1,0 +1,11 @@
+"""
+
+pip install mysql-connector-python
+
+"""
+
+"""
+EDA (Exploratory Data Analysis)
+
+
+"""
